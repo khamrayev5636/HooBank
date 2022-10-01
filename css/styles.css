@@ -1,0 +1,77 @@
+/* Header start */
+
+.header__nav {
+    background: linear-gradient(144.39deg,#fff -278.56%,#6d6d6d -78.47%,#11101d 91.61%);
+    transition:  1s ease-in-out;
+}
+
+.header__nav.shownav {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.burger__span {
+    transition: 0.5s ease;
+}
+
+.burger.shownav .burger__span:nth-child(2){
+    opacity: 0;
+}
+
+.burger.shownav .burger__span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+
+.burger.shownav .burger__span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* Hero start */
+
+.hero__person {
+    background: linear-gradient(125.17deg, #272727 0%, #11101D 100%);
+}
+
+/* .span__title {
+    color: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+} */
+
+/* Hero end */
+
+/* Money start */
+
+.money__button {
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+}
+
+.money__item:hover {
+    background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+}
+
+/* Money end */
+
+/* About start */
+
+.about__item:hover {    
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+}
+
+/* About end */
+
+/* Article start */
+
+.article__block {
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+}
+
+/* Article end */
+
+@media only screen and (min-width:768px){
+    .header__nav {
+        background: transparent;
+    }
+}
+
+/* Header end */

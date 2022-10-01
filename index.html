@@ -5,11 +5,379 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HooBank</title>
+    <link rel="stylesheet" href="dist/main.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-
-
+<body class="bg-[url('/images/landing-page-bg.svg')] bg-cover font-poppins">
+    
+    <!-- Header start -->
+    
+    <header class="pt-6 pb-6 md:pt-9 md:pb-[70px]">
+        <div class="max-w-[1300px] w-full mx-auto px-5">
+            <div class="wrapper  md:flex md:justify-between md:items-center">
+                <div class="flex justify-between items-center">
+                    <a href="index.html">
+                        <img src="images/logo.svg" alt="site-logo">
+                    </a>
+                    <div class="burger flex flex-col cursor-pointer md:hidden">
+                        <span class="burger__span inline-block w-[30px] h-[3px] bg-white mb-1" ></span>
+                        <span class="burger__span inline-block w-[20px] h-[3px] bg-white mb-1"  ></span>
+                        <span class="burger__span inline-block w-[30px] h-[3px] bg-white" ></span>
+                    </div>
+                </div>
+                <nav class="header__nav fixed z-50  right-5 top-20 p-7 rounded-lg translate-y-28 opacity-0 pointer-events-none md:pointer-events-auto md:static md:opacity-100 md:translate-y-0 md:p-0" aria-hidden="true">
+                    <ul class="md:flex">
+                        <li>
+                            <a class="font-poppins inline-block mb-2 font-normal text-base text-white transition hover:text-subtitle hover:cursor-pointer md:mb-0 md:mr-14" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="font-poppins inline-block mb-2 font-normal text-base text-white transition hover:text-subtitle hover:cursor-pointer md:mb-0 md:mr-14" href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a class="font-poppins inline-block mb-2 font-normal text-base text-white transition hover:text-subtitle hover:cursor-pointer md:mb-0 md:mr-14" href="#">Features</a>
+                        </li>
+                        <li>
+                            <a class="font-poppins inline-block mb-2 font-normal text-base text-white transition hover:text-subtitle hover:cursor-pointer md:mb-0" href="#">Solution</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Header end -->
     
     
-</body>
-</html>
+    <!-- Main start -->
+    
+    <main>
+        
+        <!-- Hero start -->
+        
+        <section class="hero relative mb-28">
+            <div class="max-w-[1300px] w-full mx-auto px-5">
+                <div class="hero__wrapper mb-10 xl:mb-36  md:flex md:items-center">
+                    <img class="hidden  absolute" src="images/circle.png" alt="circle-images">
+                    <div class="hero__info mb-10 md:max-w-[500px] md:w-full md:mb-0 xl:max-w-[670px] xl:w-full">
+                        <div class="hero__person flex items-center max-w-[408px] w-full py-1.5  rounded-[10px] mb-4 mx-auto md:mx-0">
+                            <img class="mr-4 ml-3" src="images/protsent.svg" alt="protsent-image">
+                            <p class="font-normal text-sm text-[#a4a4a6] lg:text-lg">
+                                <span class="text-white">20%</span> DISCOUNT FOR <span class="text-white">1 MONTH</span> ACCOUNT
+                            </p>
+                        </div>
+                        <h1 class="font-poppins font-semibold text-[52px] text-white text-center mb-7 md:text-start md:leading-[80px] lg:mb-10 xl:leading-[101px] xl:text-[72px]">
+                            The Next <span class="span__title text-[#33bbcf]">Generation</span> Payment Method.
+                        </h1>
+                        <p class="font-poppins font-normal text-md text-subtitle text-center mb-7 mx-auto max-w-[440px] w-full md:text-start md:mx-0 xl:mb-0">Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
+                            We examine annual percentage rates, annual fees.</p>
+                        </div>
+                        <div class="hero__images">
+                            <img class="w-full  xl:-mr-48" src="images/hero-bg.png" alt="hero-img">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center md:flex-row md:justify-between ">
+                        <p class="flex items-center md:flex-col xl:flex-row  font-normal  uppercase text-[#33bbcf]"><strong class="text-[35px] leading-[53px] text-white mr-6 md:mr-0 xl:mr-6">3800+</strong>User Active
+                            <span class="bg-line w-[13px] border-[1px] border-solid divide-subtitle ml-[100px] rotate-90 hidden xl:block"></span>
+                        </p>
+                        <p class="flex items-center md:flex-col xl:flex-row  font-normal  uppercase text-[#33bbcf]"><strong class="text-[35px] leading-[53px] text-white mr-6 md:mr-0 xl:mr-6">230+</strong>TRUSTED BY COMPANY
+                            <span class="bg-line w-[13px] border-[1px] border-solid divide-subtitle ml-[100px] rotate-90 hidden xl:block"></span>
+                        </p>
+                        <p class="flex items-center md:flex-col xl:flex-row  font-normal  uppercase text-[#33bbcf]"><strong class="text-[35px] leading-[53px] text-white mr-6 md:mr-0 xl:mr-6">$230M+</strong>TRANSACTION</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Hero end -->
+            
+            <!-- Money start -->
+            
+            <section class="mb-28 md:mb-[160px]">
+                <div class="max-w-[1300px] w-full mx-auto px-5">
+                    <div class="md:flex md:justify-between">
+                        <div class="max-w-[445px] w-full mx-auto mb-6 md:mx-0 lg:max-w-[620px]">
+                            <h2 class="font-semibold text-[36px] leading-[50px] text-white text-center mb-5 md:text-start lg:text-[48px] lg:leading-[77px] lg:mb-6">
+                                You do the business, we’ll handle the money.
+                            </h2>
+                            <p class="font-normal text-lg text-subtitle text-center mb-10 md:text-start md:mb-12">
+                                With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.
+                            </p>
+                            <div class="flex justify-center md:justify-start">
+                                <a class="money__button max-w-[170px]  w-full  py-5 px-[33px] rounded-[10px] font-medium text-lg capitalize text-[#00040e]" href="#">Get Started</a>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="money__item flex flex-col items-center lg:flex-row  mx-auto max-w-[450px] w-full py-5 px-3 mb-9  transition hover:shadow-item rounded-[20px] cursor-pointer md:mb-0 lg:max-w-[470px] lg:px-4 lg:pt-5 lg:pb-4">
+                                <img class="mb-3 lg:mb-0 lg:mr-5"  src="images/star.svg" alt="star-images">
+                                <div>
+                                    <h3 class="font-semibold text-lg text-white text-center mb-3 lg:mb-2 lg:text-start">Rewards</h3>
+                                    <p class="font-normal text-base leading-6 text-subtitle text-center lg:text-start">The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+                                </div>
+                            </li>
+                            <li class="money__item flex flex-col items-center lg:flex-row  mx-auto max-w-[450px] w-full py-5 px-3 mb-9  transition hover:shadow-item rounded-[20px] cursor-pointer md:mb-0 lg:max-w-[470px] lg:px-4 lg:pt-5 lg:pb-4">
+                                <img class="mb-3 lg:mb-0 lg:mr-5"  src="images/secured.svg" alt="star-images">
+                                <div>
+                                    <h3 class="font-semibold text-lg text-white text-center mb-3 lg:mb-2 lg:text-start">100% Secured</h3>
+                                    <p class="font-normal text-base leading-6 text-subtitle text-center lg:text-start">The We take proactive steps make sure your information and transactions are secure.</p>
+                                </div>
+                            </li>
+                            <li class="money__item flex flex-col items-center lg:flex-row  mx-auto max-w-[450px] w-full py-5 px-3  transition hover:shadow-item rounded-[20px] cursor-pointer md:mb-0 lg:max-w-[470px] lg:px-4 lg:pt-5 lg:pb-4">
+                                <img class="mb-3 lg:mb-0 lg:mr-5"  src="images/message.svg" alt="star-images">
+                                <div>
+                                    <h3 class="font-semibold text-lg text-white text-center mb-3 lg:mb-2 lg:text-start">Balance Transfer</h3>
+                                    <p class="font-normal text-base leading-6 text-subtitle text-center lg:text-start">The A balance transfer credit card can save you a lot of money in interest charges.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Money end -->
+            
+            <!-- Paypal start -->
+            
+            <section class="mb-28 md:mb-[160px]">
+                <div class="max-w-[1300px] w-full mx-auto px-5">
+                    <div class="md:flex md:items-center md:justify-between">
+                        <img class="max-w-[560px] w-full mx-auto md:mx-0 md:max-w-[370px] lg:max-w-[560px]" src="images/paypal.png" alt="paypal-png">
+                        <div class="max-w-[445px] w-full mx-auto md:mx-0 lg:max-w-[470px]">
+                            <h2 class="font-semibold text-[36px] leading-[60px] text-center text-white mb-6 md:text-start lg:text-[48px] lg:leading-[77px]">
+                                Easily control your billing & invoicing.
+                            </h2>
+                            <p class="font-normal text-lg text-subtitle mb-10">
+                                Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+                            </p>
+                            <div class="flex">
+                                <img class="mr-8" src="images/app-store.svg" alt="app-store-images">
+                                <img src="images/goggle-play.svg" alt="goggle-play-images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Paypal end -->
+            
+            <!-- Card start -->
+            
+            <section class="mb-28 md:mb-[160px]">
+                <div class="max-w-[1300px] w-full mx-auto px-5">
+                    <div class="md:flex md:justify-between">
+                        <div class="max-w-[400px] w-full mx-auto mb-6 md:mx-0  lg:max-w-[570px]">
+                            <h2 class="font-semibold text-[36px] leading-[50px] text-white text-center mb-5 md:text-start lg:text-[48px] lg:leading-[77px] lg:mb-6">
+                                Find a better card deal in few easy steps.
+                            </h2>
+                            <p class="font-normal text-lg text-subtitle text-center mb-6 md:text-start lg:w-[480px]">
+                                Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+                            </p>
+                            <div class="flex justify-center mb-14 md:mb-0 md:justify-start">
+                                <a class="money__button max-w-[170px]  w-full  py-5 px-[33px] rounded-[10px] font-medium text-lg capitalize text-[#00040e]" href="#">Get Started</a>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="max-w-[450px] w-full mx-auto md:mx-0 lg:max-w-[510px]" src="images/card.png" alt="card-png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Card end -->
+            
+            <!-- About start -->
+            
+            <section>
+                <div class="max-w-[1300px] w-full mx-auto px-5">
+                    <div class="max-w-[430px] w-full mx-auto  md:mx-0 md:max-w-none md:flex md:items-center md:justify-between md:mb-20">
+                        <h2 class="text-white text-[36px] text-center font-semibold leading-[60px] mb-6 md:text-start md:mr-3 md:mb-0 md:w-[430px] lg:mr-0 lg:text-[48px] lg:leading-[82px] lg:w-[470px]">
+                            What people are saying about us
+                        </h2>
+                        <p class="text-subtitle font-normal text-[18px] leading-[24px] text-center mb-10 md:w-[450px] md:text-start md:mb-0 lg:w-[450px] lg:leading-[32px]">
+                            Everything you need to accept card payments and grow your business anywhere on the planet.
+                        </p>
+                    </div>
+                    <ul class="md:mb-[100px] md:flex md:justify-between">
+                        <li class="about__item max-w-[370px] w-full mx-auto rounded-[20px] pt-[60px] px-10 pb-[62px] transition md:mx-0 md:max-w-[240px] md:p-5 lg:max-w-[370px] lg:pt-[60px] lg:px-10 lg:pb-[62px] cursor-pointer">
+                            <img class="mb-10" src="images/quote.svg" alt="quote-svg">
+                            <p class="text-white text-lg mb-7 md:text-sm lg:text-lg lg:leading-[32px] ">
+                                Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+                            </p>
+                            <div class="flex md:flex-col md:items-start lg:flex-row">
+                                <img class="mr-4 md:mr-0 md:mb-6 lg:mb-0 lg:mr-4" src="images/jesen.png" alt="jesen-png">
+                                <div>
+                                    <p class="text-white text-xl">
+                                        Herman Jensen
+                                    </p>
+                                    <span class="text-white text-base opacity-50">Founder & Leader</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="about__item  max-w-[370px] w-full mx-auto rounded-[20px] pt-[60px] px-10 pb-[62px] transition md:mx-0 md:max-w-[240px] md:p-5 lg:max-w-[370px] lg:pt-[60px] lg:px-10 lg:pb-[62px] cursor-pointer">
+                            <img class="mb-10" src="images/quote.svg" alt="quote-svg">
+                            <p class="text-white text-lg mb-7 md:text-sm md:h-20 lg:text-lg lg:leading-[32px] lg:h-32">
+                                Money makes your life easier. If you're lucky to have it, you're lucky.
+                            </p>
+                            <div class="flex md:flex-col md:items-start lg:flex-row">
+                                <img class="mr-4 md:mr-0 md:mb-6 lg:mb-0 lg:mr-4" src="images/mark.png" alt="jesen-png">
+                                <div>
+                                    <p class="text-white text-xl">
+                                        Steve Mark
+                                    </p>
+                                    <span class="text-white text-base opacity-50">Founder & Leader</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="about__item  max-w-[370px] w-full mx-auto rounded-[20px] pt-[60px] px-10 pb-[62px] transition md:mx-0 md:max-w-[240px] md:p-5 lg:max-w-[370px] lg:pt-[60px] lg:px-10 lg:pb-[62px] cursor-pointer">
+                            <img class="mb-10" src="images/quote.svg" alt="quote-svg">
+                            <p class="text-white text-lg mb-7 md:text-sm lg:text-lg lg:leading-[32px] ">
+                                It is usually people in the money business, finance, and international trade that are really rich.
+                            </p>
+                            <div class="flex md:flex-col md:items-start lg:flex-row">
+                                <img class="mr-4 md:mr-0 md:mb-6 lg:mb-0 lg:mr-4" src="images/kenn.png" alt="jesen-png">
+                                <div>
+                                    <p class="text-white text-xl">
+                                        Kenn Gallagher
+                                    </p>
+                                    <span class="text-white text-base opacity-50">Founder & Leader</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="grid  justify-center mb-14 md:grid-cols-2 lg:grid-cols-4 lg:items-center lg:mb-[100px]">
+                        <img class="mb-10 md:mx-auto lg:mb-0" src="images/airbnb.svg" alt="airbnb-svg">
+                        <img class="mb-10 md:mx-auto lg:mb-0" src="images/binance.svg" alt="binance-svg">
+                        <img class="mb-10 md:mb-0 md:mx-auto" src="images/coinbase.svg" alt="coinbase-svg">
+                        <img class="md:mx-auto" src="images/dropbox.svg" alt="dropbox-svg">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- About end -->
+            
+            <!-- Article start -->
+            
+            <article class="mb-14 md:mb-20">
+                <div class="max-w-[1300px] w-full mx-auto px-5">
+                    <div class="article__block max-w-[1170px] w-full mx-auto rounded-[20px] py-14 md:flex md:justify-between md:items-center md:px-10 lg:py-[72px] xl:px-[97px]">
+                        <div class="max-w-[380px] w-full mx-auto md:mx-0 md:max-w-[450px] lg:max-w-[670px]">
+                            <h2 class="text-white text-4xl font-semibold text-center mb-6 md:text-start lg:text-[48px] leading-[67px]">
+                                Let’s try our service now!
+                            </h2>
+                            <p class="text-subtitle text-lg text-center md:text-start md:w-[450px]">
+                                Everything you need to accept card payments and grow your business anywhere on the planet.
+                            </p>
+                        </div>
+                        <div class="flex justify-center flex-row pt-14 md:pt-0">
+                            <a class="money__button max-w-[170px]  w-full  py-5 px-[33px] rounded-[10px] font-medium text-lg capitalize text-[#00040e] md:h-[68px]" href="#">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Article end -->
+            
+        </main>
+        
+        <!-- Main end -->
+        
+        
+        <!-- Footer start -->
+        
+        <footer class="pt-[72px] bg-footer ">
+            <div class="max-w-[1300px] w-full mx-auto px-5">
+                <div class="footer__wrapper md:flex md:justify-between mb-10">
+                    <div class="max-w-[340px] w-full mx-auto mb-12 md:mx-0 md:max-w-[320px]">
+                        <img class="w-[266px] mx-auto  mb-6 md:mx-0 lg:mb-[30px]" src="images/logo.svg" alt="footer-logo">
+                        <p class="text-lg text-subtitle text-center md:text-start ">A new way to make the payments easy, reliable and secure.</p>
+                    </div>
+                    <div class="md:flex">
+                        <ul class="text-center md:text-start mb-10 md:mb-0 md:mr-5 lg:mr-[100px] xl:mr-[182px]">
+                            <li>
+                                <h3 class="text-white text-lg font-semibold mb-6">Usefull Links</h3>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Content</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">How it Works</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Create</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Explore</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Terms & Services</a>
+                            </li>
+                        </ul>
+                        <ul class="text-center md:text-start mb-10 md:mb-0 md:mr-5 lg:mr-[100px] xl:mr-[182px]">
+                            <li>
+                                <h3 class="text-white text-lg font-semibold mb-6">Community</h3>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Help Center</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Partners</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Suggestions</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Newsletters</a>
+                            </li>
+                        </ul>
+                        <ul class="text-center md:text-start">
+                            <li>
+                                <h3 class="text-white text-lg font-semibold mb-6">
+                                    Partner
+                                </h3>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Our Partner</a>
+                            </li>
+                            <li>
+                                <a class="inline-block text-base text-subtitle mb-3" href="#">Become a Partner</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="border-[1px] border-solid border-[#3f3e45] bg-[#3f3e45]"></div>
+                <div class="py-[30px] md:flex md:justify-between">
+                    <p class="text-lg text-subtitle text-center mb-10 md:mb-0">
+                        Copyright 
+                        <img class="inline-block mx-4" src="images/fooerc.svg" alt="footerc"> 
+                        2021 HooBank. All Rights Reserved.
+                    </p>
+                    <ul class="flex justify-center md:justify-start">
+                        <li>
+                            <img class="" src="images/instagram.svg" alt="instagram-svg">
+                        </li>
+                        <li>
+                            <img class="ml-20 md:ml-[30px]" src="images/facebook.svg" alt="facebook-svg">
+                        </li>
+                        <li>
+                            <img class="ml-20 md:ml-[30px]" src="images/twitter.svg" alt="twitter.svg">
+                        </li>
+                        <li>
+                            <img class="ml-20 md:ml-[30px]" src="images/linkedin.svg" alt="linkedin.svg">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Footer end -->
+        
+        
+        
+        
+        <script src="js/main.js"></script>
+        
+    </body>
+    </html>
