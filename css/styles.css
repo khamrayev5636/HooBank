@@ -2,7 +2,7 @@
 
 .header__nav {
     background: linear-gradient(144.39deg,#fff -278.56%,#6d6d6d -78.47%,#11101d 91.61%);
-    transition:  1s ease-in-out;
+    transition:  0.5s ease-in-out;
 }
 
 .header__nav.shownav {
